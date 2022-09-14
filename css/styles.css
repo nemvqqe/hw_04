@@ -120,8 +120,26 @@
   display: flex;
 }
 
+.section__item {
+  display: block;
+  width: 370px;
+  height: 294px;
+}
+
 .section__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.section__item:nth-child(1) {
+  background-image: url(../images/neondesktop.jpg);
+}
+
+.section__item:nth-child(2) {
+  background-image: url(../images/phonedesktop.jpg);
+}
+
+.section__item:nth-child(3) {
+  background-image: url(../images/rgbdesktop.jpg);
 }
 
 /* Team */
