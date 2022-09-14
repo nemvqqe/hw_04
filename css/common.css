@@ -10,6 +10,8 @@
   --primary-footer-bg-color: #2f303a;
   --primary-item-bg-color: #eeeeee;
   --primary-line-color: #ececec;
+  --primary-hero-bg-color: #c4c4c4;
+  --hero-shadow: rgba(47, 48, 58, 0.4);
 }
 
 body {
