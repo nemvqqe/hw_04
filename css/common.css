@@ -76,10 +76,10 @@ img {
   color: var(--primary-white-color);
 }
 
-.logo__header-studio:hover,
-.logo__header-studio:focus,
-.logo__footer-studio:hover,
-.logo__footer-studio:focus {
+.logo__text:hover > .logo__header-studio,
+.logo__text:focus > .logo__header-studio,
+.logo__text:hover > .logo__footer-studio,
+.logo__text:focus > .logo__footer-studio {
   color: var(--accent-color);
 }
 
