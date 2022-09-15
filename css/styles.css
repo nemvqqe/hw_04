@@ -223,7 +223,8 @@
   margin-right: 10px;
 }
 
-.team__social-link:hover {
+.team__social-link:hover,
+.team__social-link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -259,7 +260,8 @@
   fill: currentColor;
 }
 
-.client__link:hover {
+.client__link:hover,
+.client__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
